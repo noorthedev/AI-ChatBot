@@ -74,7 +74,7 @@
     .input-row {
       display: flex; gap: 8px; padding: 12px 14px;
       border-top: 1px solid rgba(255,255,255,0.1);
-      background: rgba(255,255,255,0.04);
+      background: rgba(255,255,255,0.04);      
     }
     .input-row textarea {
       flex: 1; resize: none; padding: 10px 14px; font-size: 14px;
@@ -109,7 +109,7 @@
   <div class="messages" id="messages">
     <div class="msg bot">
       <div class="msg-avatar">🤖</div>
-      <div class="msg-bubble">Assalam-o-Alaikum! Main aapka AI assistant hoon. Kuch bhi poochh sakte hain 😊</div>
+      <div class="msg-bubble">Hello! I am your AI assistant. You can ask me anything 😊</div>
     </div>
   </div>
   <div class="input-row">
@@ -120,7 +120,7 @@
 
 <script>
   const history = [
-    { role: "assistant", content: "Assalam-o-Alaikum! Main aapka AI assistant hoon. Kuch bhi poochh sakte hain 😊" }
+    { role: "assistant", content: "Hello! I am your AI assistant. You can ask me anything 😊" }
   ];
 
   const messagesEl = document.getElementById('messages');
